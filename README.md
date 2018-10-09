@@ -7,6 +7,4 @@
 3. App shows available products, quantity and price.
 4. Store owner can see sales and can filter by attendants.
 5. Store owner can add, modify and delete products.
-<br />
-## Notes.
-This application helps store owners(admin) avoid selling products that have run out of stock.
+
