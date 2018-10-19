@@ -1,0 +1,65 @@
+body{
+  background-color: #696969;
+}
+
+nav{
+  height: 50px;
+}
+
+nav h1{
+  float: left;
+  font: 35px/1.5 Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+nav a{
+  text-decoration: none;
+  float: right;
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  margin: 15px 20px;
+}
+
+#adminmenu{
+  width: 80%;
+  height: 410px;
+  border-radius: 5px;
+  border:  0.5px black;
+  margin: 60px auto;
+  background-color: white;
+}
+
+#adminmenu h1{
+  font: 25px/1.5 Arial, Helvetica, sans-serif;
+  color: #696969;
+}
+
+#products{
+  margin-top: 10px;
+  width: 60%;
+  height: 90%;
+  float: left;
+  margin-left: 5px;
+}
+
+#products h1, #products h2{
+  margin-left: 10px;
+  color: black;
+}
+
+#products h1{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+}
+
+#products h2{
+  font: 25px/1.5 Arial, Helvetica, sans-serif;
+}
+
+#details{
+  margin-top: 70px;
+  float: right;
+  width: 30%;
+  height: 60%;
+  background-color: red;
+}

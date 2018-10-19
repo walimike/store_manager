@@ -1,0 +1,17 @@
+body{
+  background-color: #696969;
+  }
+
+.saleattendant {
+  height: 500px;
+  width: 60%;
+  float: left;
+  background-color: #D3D3D3;
+  margin: 50px 20px;
+  border-radius: 5px;
+}
+
+.picture1{
+  float: right;
+  width: 35%;
+}
