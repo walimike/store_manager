@@ -9,6 +9,9 @@ class Product:
         self.name = name
         self.price = price
 
+    def to_json(self):
+        return {"Category":self.category,"Name":self.name,"Price":self.price}
+
 
 
 class ProductsList:
@@ -18,8 +21,7 @@ class ProductsList:
     def __init__(self):
         self.product_list = []
 
-    def get_products(self):
-        return self.product_list
+
 
 my_products = ProductsList()
 """
