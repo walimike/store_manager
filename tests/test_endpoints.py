@@ -24,7 +24,6 @@ class ApiTest(unittest.TestCase):
 
     def test_product_list(self):
         new_product = Product("Detergent","soap",1500)
-        product = new_product.to_json()
-        my_products.product_list.append(product)
+        my_products.product_list.append(new_product.to_json())
         response = self.client.get('/v1/api/products')
         self.assertEqual(response.status_code, 200)

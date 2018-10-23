@@ -8,7 +8,7 @@ appblueprint = Blueprint('api',__name__)
 def welcomeMessage():
     return "<h1>Welcome to Store Manager.</h1>"
 
-@appblueprint.route('/products')
+@appblueprint.route('/products', methods=['GET'])
 def view_products():
     if not is_valid.empty_list():
         return jsonify({"Message":"Product list is currently empty"}), 200

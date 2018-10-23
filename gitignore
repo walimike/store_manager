@@ -1,0 +1,7 @@
+tests/__pycache__
+api/__pycache__
+models/__pycache__
+controllers/__pycache__
+views/__pycache__
+venv/
+
