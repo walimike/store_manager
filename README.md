@@ -1,6 +1,8 @@
 # Store Manager
 **Store Manager is a web application that helps store owners manage sales and product inventory records. This application is meant for use in a single store**
 <br />
+## Build Status.
+[![Build Status](https://travis-ci.org/walimike/store_manager.svg?branch=view_products)](https://travis-ci.org/walimike/store_manager)                                            [![Coverage Status](https://coveralls.io/repos/github/walimike/store_manager/badge.svg?branch=view_products)](https://coveralls.io/github/walimike/store_manager?branch=view_products)    <br />
 ## Features.
 1. Store attendant can search and add products to buyer's cart.
 2. Store attendant can see his/her sale records but can not modify them.
